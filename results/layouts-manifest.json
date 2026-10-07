@@ -1,0 +1,395 @@
+{
+  "config": "driving-benchmark-v1",
+  "master_seed": 2026,
+  "hda": {
+    "hda_type": "abidar::street_district_linked::1.0",
+    "houdini": "21.0.440",
+    "sop_nodes": 0,
+    "python_sops": 0,
+    "wrangles": 0,
+    "children_debug": [],
+    "direct_children": 0
+  },
+  "layouts": [
+    {
+      "id": "L00",
+      "controls": {
+        "blocks_x": 3,
+        "blocks_z": 2,
+        "pitch_x": 42.0,
+        "pitch_z": 38.0,
+        "road_width": 10.0,
+        "sidewalk": 2.2,
+        "seed": 17
+      },
+      "file": "layouts\\L00\\city.usdc",
+      "sha256": "e608e7b9b26440bea3c555e3c7a9d37c13c2ac8de463758fc2daef7098c64e0d",
+      "route_points": 601,
+      "route_length_m": 94.92972351931041,
+      "start": [
+        -23.5,
+        -30.0
+      ],
+      "start_heading_xz": [
+        0.0,
+        1.0
+      ],
+      "route_check": {
+        "vehicle_envelope_m": [
+          2.05,
+          4.9
+        ],
+        "physics_samples": 601,
+        "sidewalk_overlap_samples": 0,
+        "minimum_sidewalk_separating_gap_m": 0.4750500008852967,
+        "straight_lane_samples": 331,
+        "wrong_lane_samples": 0,
+        "minimum_straight_lane_clearance_m": 0.6808753064273085,
+        "method": "Oriented conservative vehicle rectangle vs native sidewalk block rectangles; straight-lane bounds; each physics step"
+      },
+      "route_check_passed": true
+    },
+    {
+      "id": "L01",
+      "controls": {
+        "blocks_x": 2,
+        "blocks_z": 2,
+        "pitch_x": 41.1,
+        "pitch_z": 39.2,
+        "road_width": 12.0,
+        "sidewalk": 2.23,
+        "seed": 6399
+      },
+      "file": "layouts\\L01\\city.usdc",
+      "sha256": "6829c777f66f908f4e4abbc1f5857a3327a3a82a240acf264d1b7594b827eed9",
+      "route_points": 601,
+      "route_length_m": 91.8156688128464,
+      "start": [
+        -3.0,
+        -29.600000381469727
+      ],
+      "start_heading_xz": [
+        0.0,
+        1.0
+      ],
+      "route_check": {
+        "vehicle_envelope_m": [
+          2.05,
+          4.9
+        ],
+        "physics_samples": 601,
+        "sidewalk_overlap_samples": 0,
+        "minimum_sidewalk_separating_gap_m": 0.7750585826943279,
+        "straight_lane_samples": 310,
+        "wrong_lane_samples": 0,
+        "minimum_straight_lane_clearance_m": 1.115240684662812,
+        "method": "Oriented conservative vehicle rectangle vs native sidewalk block rectangles; straight-lane bounds; each physics step"
+      },
+      "route_check_passed": true
+    },
+    {
+      "id": "L02",
+      "controls": {
+        "blocks_x": 4,
+        "blocks_z": 3,
+        "pitch_x": 36.2,
+        "pitch_z": 43.1,
+        "road_width": 12.0,
+        "sidewalk": 2.16,
+        "seed": 9051
+      },
+      "file": "layouts\\L02\\city.usdc",
+      "sha256": "a6b42bb668ff8349e2bdc74a91fee04f107d162a9c596a2e216c79437fc9626b",
+      "route_points": 601,
+      "route_length_m": 94.71566732638408,
+      "start": [
+        -39.20000076293945,
+        -55.04999923706055
+      ],
+      "start_heading_xz": [
+        0.0,
+        1.0
+      ],
+      "route_check": {
+        "vehicle_envelope_m": [
+          2.05,
+          4.9
+        ],
+        "physics_samples": 601,
+        "sidewalk_overlap_samples": 0,
+        "minimum_sidewalk_separating_gap_m": 0.7750593046983809,
+        "straight_lane_samples": 305,
+        "wrong_lane_samples": 0,
+        "minimum_straight_lane_clearance_m": 1.1152404939279528,
+        "method": "Oriented conservative vehicle rectangle vs native sidewalk block rectangles; straight-lane bounds; each physics step"
+      },
+      "route_check_passed": true
+    },
+    {
+      "id": "L03",
+      "controls": {
+        "blocks_x": 4,
+        "blocks_z": 3,
+        "pitch_x": 42.0,
+        "pitch_z": 43.5,
+        "road_width": 10.0,
+        "sidewalk": 2.42,
+        "seed": 9198
+      },
+      "file": "layouts\\L03\\city.usdc",
+      "sha256": "1d0a59b9d23d8a7d339b63a4585a5510dc8d3bad41d515d18a2f0a8db0d55c43",
+      "route_points": 601,
+      "route_length_m": 105.92972343417544,
+      "start": [
+        -44.5,
+        -57.25
+      ],
+      "start_heading_xz": [
+        0.0,
+        1.0
+      ],
+      "route_check": {
+        "vehicle_envelope_m": [
+          2.05,
+          4.9
+        ],
+        "physics_samples": 601,
+        "sidewalk_overlap_samples": 0,
+        "minimum_sidewalk_separating_gap_m": 0.47504913203894983,
+        "straight_lane_samples": 341,
+        "wrong_lane_samples": 0,
+        "minimum_straight_lane_clearance_m": 0.6808834583050434,
+        "method": "Oriented conservative vehicle rectangle vs native sidewalk block rectangles; straight-lane bounds; each physics step"
+      },
+      "route_check_passed": true
+    },
+    {
+      "id": "L04",
+      "controls": {
+        "blocks_x": 4,
+        "blocks_z": 3,
+        "pitch_x": 37.2,
+        "pitch_z": 36.4,
+        "road_width": 11.0,
+        "sidewalk": 2.07,
+        "seed": 4484
+      },
+      "file": "layouts\\L04\\city.usdc",
+      "sha256": "bc6f37f80a9c78c407c521c3d495518f70c064aeffe61490439fcd8fbdbcf0c2",
+      "route_points": 601,
+      "route_length_m": 84.62269463334401,
+      "start": [
+        -39.95000076293945,
+        -45.79999923706055
+      ],
+      "start_heading_xz": [
+        0.0,
+        1.0
+      ],
+      "route_check": {
+        "vehicle_envelope_m": [
+          2.05,
+          4.9
+        ],
+        "physics_samples": 601,
+        "sidewalk_overlap_samples": 0,
+        "minimum_sidewalk_separating_gap_m": 0.625054333488313,
+        "straight_lane_samples": 310,
+        "wrong_lane_samples": 0,
+        "minimum_straight_lane_clearance_m": 0.8980529402583421,
+        "method": "Oriented conservative vehicle rectangle vs native sidewalk block rectangles; straight-lane bounds; each physics step"
+      },
+      "route_check_passed": true
+    },
+    {
+      "id": "L05",
+      "controls": {
+        "blocks_x": 3,
+        "blocks_z": 2,
+        "pitch_x": 44.3,
+        "pitch_z": 34.2,
+        "road_width": 12.0,
+        "sidewalk": 2.34,
+        "seed": 4309
+      },
+      "file": "layouts\\L05\\city.usdc",
+      "sha256": "d8550a498568cd607a151bd9aa81981bb5961a79efa10eed063c73dca365735b",
+      "route_points": 601,
+      "route_length_m": 85.01566876027321,
+      "start": [
+        -25.149999618530273,
+        -24.600000381469727
+      ],
+      "start_heading_xz": [
+        0.0,
+        1.0
+      ],
+      "route_check": {
+        "vehicle_envelope_m": [
+          2.05,
+          4.9
+        ],
+        "physics_samples": 601,
+        "sidewalk_overlap_samples": 0,
+        "minimum_sidewalk_separating_gap_m": 0.7750594951559133,
+        "straight_lane_samples": 292,
+        "wrong_lane_samples": 0,
+        "minimum_straight_lane_clearance_m": 1.115239228283427,
+        "method": "Oriented conservative vehicle rectangle vs native sidewalk block rectangles; straight-lane bounds; each physics step"
+      },
+      "route_check_passed": true
+    },
+    {
+      "id": "L06",
+      "controls": {
+        "blocks_x": 3,
+        "blocks_z": 2,
+        "pitch_x": 43.2,
+        "pitch_z": 40.1,
+        "road_width": 12.0,
+        "sidewalk": 2.16,
+        "seed": 1954
+      },
+      "file": "layouts\\L06\\city.usdc",
+      "sha256": "a7fe9a485909908c10eefc5af2f4614f02d9ecebf0c42b3b740357539182dcd7",
+      "route_points": 601,
+      "route_length_m": 95.71566833394782,
+      "start": [
+        -24.600000381469727,
+        -30.5
+      ],
+      "start_heading_xz": [
+        0.0,
+        1.0
+      ],
+      "route_check": {
+        "vehicle_envelope_m": [
+          2.05,
+          4.9
+        ],
+        "physics_samples": 601,
+        "sidewalk_overlap_samples": 0,
+        "minimum_sidewalk_separating_gap_m": 0.7750585826943279,
+        "straight_lane_samples": 315,
+        "wrong_lane_samples": 0,
+        "minimum_straight_lane_clearance_m": 1.1152399564742288,
+        "method": "Oriented conservative vehicle rectangle vs native sidewalk block rectangles; straight-lane bounds; each physics step"
+      },
+      "route_check_passed": true
+    },
+    {
+      "id": "L07",
+      "controls": {
+        "blocks_x": 2,
+        "blocks_z": 3,
+        "pitch_x": 46.6,
+        "pitch_z": 42.5,
+        "road_width": 12.0,
+        "sidewalk": 2.21,
+        "seed": 8746
+      },
+      "file": "layouts\\L07\\city.usdc",
+      "sha256": "331be2cd88925e5765a0d456e5f35f89e87a46323db284426f4779e0d7ca6e07",
+      "route_points": 601,
+      "route_length_m": 103.91566920191075,
+      "start": [
+        -3.0,
+        -54.150001525878906
+      ],
+      "start_heading_xz": [
+        0.0,
+        1.0
+      ],
+      "route_check": {
+        "vehicle_envelope_m": [
+          2.05,
+          4.9
+        ],
+        "physics_samples": 601,
+        "sidewalk_overlap_samples": 0,
+        "minimum_sidewalk_separating_gap_m": 0.7750587951742745,
+        "straight_lane_samples": 324,
+        "wrong_lane_samples": 0,
+        "minimum_straight_lane_clearance_m": 1.1152416383371282,
+        "method": "Oriented conservative vehicle rectangle vs native sidewalk block rectangles; straight-lane bounds; each physics step"
+      },
+      "route_check_passed": true
+    },
+    {
+      "id": "L08",
+      "controls": {
+        "blocks_x": 4,
+        "blocks_z": 3,
+        "pitch_x": 39.0,
+        "pitch_z": 46.4,
+        "road_width": 11.0,
+        "sidewalk": 2.18,
+        "seed": 5634
+      },
+      "file": "layouts\\L08\\city.usdc",
+      "sha256": "02b3e500ebc00ba491489225b46f33012e1ca50a8ca9b4a9fa980874788bd0a2",
+      "route_points": 601,
+      "route_length_m": 106.42269461545025,
+      "start": [
+        -41.75,
+        -60.79999923706055
+      ],
+      "start_heading_xz": [
+        0.0,
+        1.0
+      ],
+      "route_check": {
+        "vehicle_envelope_m": [
+          2.05,
+          4.9
+        ],
+        "physics_samples": 601,
+        "sidewalk_overlap_samples": 0,
+        "minimum_sidewalk_separating_gap_m": 0.6250549592829229,
+        "straight_lane_samples": 335,
+        "wrong_lane_samples": 0,
+        "minimum_straight_lane_clearance_m": 0.898060784546324,
+        "method": "Oriented conservative vehicle rectangle vs native sidewalk block rectangles; straight-lane bounds; each physics step"
+      },
+      "route_check_passed": true
+    },
+    {
+      "id": "L09",
+      "controls": {
+        "blocks_x": 4,
+        "blocks_z": 2,
+        "pitch_x": 35.7,
+        "pitch_z": 43.2,
+        "road_width": 11.0,
+        "sidewalk": 2.07,
+        "seed": 3138
+      },
+      "file": "layouts\\L09\\city.usdc",
+      "sha256": "51ea02ab6d0fd4184185bbf27e68ee04209da98762463362580a6e6454377b69",
+      "route_points": 601,
+      "route_length_m": 97.02269874946771,
+      "start": [
+        -38.75,
+        -34.400001525878906
+      ],
+      "start_heading_xz": [
+        0.0,
+        1.0
+      ],
+      "route_check": {
+        "vehicle_envelope_m": [
+          2.05,
+          4.9
+        ],
+        "physics_samples": 601,
+        "sidewalk_overlap_samples": 0,
+        "minimum_sidewalk_separating_gap_m": 0.6250547364057795,
+        "straight_lane_samples": 325,
+        "wrong_lane_samples": 0,
+        "minimum_straight_lane_clearance_m": 0.8980564332451015,
+        "method": "Oriented conservative vehicle rectangle vs native sidewalk block rectangles; straight-lane bounds; each physics step"
+      },
+      "route_check_passed": true
+    }
+  ]
+}

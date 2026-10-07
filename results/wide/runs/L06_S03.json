@@ -1,0 +1,69 @@
+{
+  "layout": "L06",
+  "scenario": "S03",
+  "scenario_params": {
+    "id": "S03",
+    "crossing_u": 0.4163,
+    "trigger_distance_m": 5.05,
+    "walk_speed_mps": 1.44,
+    "from_right": true,
+    "target_speed_mps": 3.5
+  },
+  "controls": {
+    "blocks_x": 3,
+    "blocks_z": 2,
+    "pitch_x": 43.2,
+    "pitch_z": 40.1,
+    "road_width": 12.0,
+    "sidewalk": 2.16
+  },
+  "outcome": "completed",
+  "success": true,
+  "route_length_m": 95.71566833394782,
+  "progress": 0.9963607488217151,
+  "sim_time_s": 38.641666666666666,
+  "wall_time_s": 18.491608399999677,
+  "real_time_factor": 2.0896866205898745,
+  "rms_cte_m": 0.09807599564055368,
+  "max_cte_m": 0.2294687690510587,
+  "crossing_s_m": 48.46170268831643,
+  "pedestrian_started": true,
+  "collision": false,
+  "contact_zone": null,
+  "min_ped_gap_m": 2.019773285916221,
+  "lane_entry_t": 15.108333333333333,
+  "lane_entry_gap_m": 3.049999761581418,
+  "lane_entry_speed": 0.011711652569695237,
+  "first_detect_t": 11.641666666666667,
+  "first_detect_m": 9.18837292305364,
+  "stopped_for_ped": true,
+  "min_gap_while_stopped_m": 2.7887718123795757,
+  "resume_delay_s": 0.36666666666666714,
+  "road_check": {
+    "vehicle_envelope_m": [
+      2.05,
+      4.9
+    ],
+    "physics_samples": 4637,
+    "sidewalk_overlap_samples": 0,
+    "minimum_sidewalk_separating_gap_m": 0.8072175445666421,
+    "straight_lane_samples": 2253,
+    "wrong_lane_samples": 0,
+    "minimum_straight_lane_clearance_m": 1.2613960544041825,
+    "method": "Oriented conservative vehicle rectangle vs native sidewalk block rectangles; straight-lane bounds; each physics step"
+  },
+  "side_watch_steps": {
+    "clear": 2936,
+    "watch": 418,
+    "yield": 622,
+    "caution": 661
+  },
+  "method": {
+    "physics_hz": 120,
+    "pose": "simulator ground truth",
+    "sensing": "5 PhysX ray queries at lateral offsets (-1.0, -0.5, 0.0, 0.5, 1.0) m",
+    "sensor": "wide",
+    "pedestrian": "kinematic capsule r=0.25 m, straight-line walk",
+    "vehicle": "NVIDIA BasicSetup PhysX vehicle"
+  }
+}

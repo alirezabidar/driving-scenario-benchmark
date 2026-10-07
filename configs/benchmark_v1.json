@@ -1,0 +1,209 @@
+{
+  "name": "driving-benchmark-v1",
+  "master_seed": 2026,
+  "layouts": [
+    {
+      "id": "L00",
+      "controls": {
+        "blocks_x": 3,
+        "blocks_z": 2,
+        "pitch_x": 42.0,
+        "pitch_z": 38.0,
+        "road_width": 10.0,
+        "sidewalk": 2.2,
+        "seed": 17
+      }
+    },
+    {
+      "id": "L01",
+      "controls": {
+        "blocks_x": 2,
+        "blocks_z": 2,
+        "pitch_x": 41.1,
+        "pitch_z": 39.2,
+        "road_width": 12.0,
+        "sidewalk": 2.23,
+        "seed": 6399
+      }
+    },
+    {
+      "id": "L02",
+      "controls": {
+        "blocks_x": 4,
+        "blocks_z": 3,
+        "pitch_x": 36.2,
+        "pitch_z": 43.1,
+        "road_width": 12.0,
+        "sidewalk": 2.16,
+        "seed": 9051
+      }
+    },
+    {
+      "id": "L03",
+      "controls": {
+        "blocks_x": 4,
+        "blocks_z": 3,
+        "pitch_x": 42.0,
+        "pitch_z": 43.5,
+        "road_width": 10.0,
+        "sidewalk": 2.42,
+        "seed": 9198
+      }
+    },
+    {
+      "id": "L04",
+      "controls": {
+        "blocks_x": 4,
+        "blocks_z": 3,
+        "pitch_x": 37.2,
+        "pitch_z": 36.4,
+        "road_width": 11.0,
+        "sidewalk": 2.07,
+        "seed": 4484
+      }
+    },
+    {
+      "id": "L05",
+      "controls": {
+        "blocks_x": 3,
+        "blocks_z": 2,
+        "pitch_x": 44.3,
+        "pitch_z": 34.2,
+        "road_width": 12.0,
+        "sidewalk": 2.34,
+        "seed": 4309
+      }
+    },
+    {
+      "id": "L06",
+      "controls": {
+        "blocks_x": 3,
+        "blocks_z": 2,
+        "pitch_x": 43.2,
+        "pitch_z": 40.1,
+        "road_width": 12.0,
+        "sidewalk": 2.16,
+        "seed": 1954
+      }
+    },
+    {
+      "id": "L07",
+      "controls": {
+        "blocks_x": 2,
+        "blocks_z": 3,
+        "pitch_x": 46.6,
+        "pitch_z": 42.5,
+        "road_width": 12.0,
+        "sidewalk": 2.21,
+        "seed": 8746
+      }
+    },
+    {
+      "id": "L08",
+      "controls": {
+        "blocks_x": 4,
+        "blocks_z": 3,
+        "pitch_x": 39.0,
+        "pitch_z": 46.4,
+        "road_width": 11.0,
+        "sidewalk": 2.18,
+        "seed": 5634
+      }
+    },
+    {
+      "id": "L09",
+      "controls": {
+        "blocks_x": 4,
+        "blocks_z": 2,
+        "pitch_x": 35.7,
+        "pitch_z": 43.2,
+        "road_width": 11.0,
+        "sidewalk": 2.07,
+        "seed": 3138
+      }
+    }
+  ],
+  "scenarios": [
+    {
+      "id": "S00",
+      "crossing_u": 0.4931,
+      "trigger_distance_m": 19.5,
+      "walk_speed_mps": 0.95,
+      "from_right": false,
+      "target_speed_mps": 4.0
+    },
+    {
+      "id": "S01",
+      "crossing_u": 0.5485,
+      "trigger_distance_m": 20.54,
+      "walk_speed_mps": 1.1,
+      "from_right": false,
+      "target_speed_mps": 3.5
+    },
+    {
+      "id": "S02",
+      "crossing_u": 0.4948,
+      "trigger_distance_m": 16.75,
+      "walk_speed_mps": 1.34,
+      "from_right": true,
+      "target_speed_mps": 3.5
+    },
+    {
+      "id": "S03",
+      "crossing_u": 0.4163,
+      "trigger_distance_m": 5.05,
+      "walk_speed_mps": 1.44,
+      "from_right": true,
+      "target_speed_mps": 3.5
+    },
+    {
+      "id": "S04",
+      "crossing_u": 0.3265,
+      "trigger_distance_m": 17.5,
+      "walk_speed_mps": 0.87,
+      "from_right": false,
+      "target_speed_mps": 4.0
+    },
+    {
+      "id": "S05",
+      "crossing_u": 0.9897,
+      "trigger_distance_m": 6.47,
+      "walk_speed_mps": 1.09,
+      "from_right": true,
+      "target_speed_mps": 4.0
+    },
+    {
+      "id": "S06",
+      "crossing_u": 0.3142,
+      "trigger_distance_m": 19.18,
+      "walk_speed_mps": 1.13,
+      "from_right": false,
+      "target_speed_mps": 4.0
+    },
+    {
+      "id": "S07",
+      "crossing_u": 0.9585,
+      "trigger_distance_m": 27.21,
+      "walk_speed_mps": 1.3,
+      "from_right": false,
+      "target_speed_mps": 3.0
+    },
+    {
+      "id": "S08",
+      "crossing_u": 0.9471,
+      "trigger_distance_m": 5.59,
+      "walk_speed_mps": 1.04,
+      "from_right": true,
+      "target_speed_mps": 3.0
+    },
+    {
+      "id": "S09",
+      "crossing_u": 0.6718,
+      "trigger_distance_m": 17.18,
+      "walk_speed_mps": 0.87,
+      "from_right": false,
+      "target_speed_mps": 3.0
+    }
+  ],
+  "notes": "Every layout runs every scenario. Scenario values are mapped onto each route at run time."
+}

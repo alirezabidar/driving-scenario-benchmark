@@ -1,0 +1,9 @@
+layouts/
+results/*/traces/
+results/*/frames/
+logs/
+work/
+sim/cache/
+__pycache__/
+
+.pytest_cache/

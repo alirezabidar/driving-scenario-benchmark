@@ -1,0 +1,69 @@
+{
+  "layout": "L00",
+  "scenario": "S06",
+  "scenario_params": {
+    "id": "S06",
+    "crossing_u": 0.3142,
+    "trigger_distance_m": 19.18,
+    "walk_speed_mps": 1.13,
+    "from_right": false,
+    "target_speed_mps": 4.0
+  },
+  "controls": {
+    "blocks_x": 3,
+    "blocks_z": 2,
+    "pitch_x": 42.0,
+    "pitch_z": 38.0,
+    "road_width": 10.0,
+    "sidewalk": 2.2
+  },
+  "outcome": "collision_side",
+  "success": false,
+  "route_length_m": 94.92972351931041,
+  "progress": 0.4961714539925856,
+  "sim_time_s": 13.741666666666667,
+  "wall_time_s": 8.962894000000233,
+  "real_time_factor": 1.5331729535869005,
+  "rms_cte_m": 0.08894056256908636,
+  "max_cte_m": 0.16178036835815274,
+  "crossing_s_m": 44.834752056499724,
+  "pedestrian_started": true,
+  "collision": true,
+  "contact_zone": "side",
+  "min_ped_gap_m": -0.0003914532311439789,
+  "lane_entry_t": 13.708333333333334,
+  "lane_entry_gap_m": -4.716666889190677,
+  "lane_entry_speed": 4.009797237590871,
+  "first_detect_t": null,
+  "first_detect_m": null,
+  "stopped_for_ped": false,
+  "min_gap_while_stopped_m": null,
+  "resume_delay_s": null,
+  "road_check": {
+    "vehicle_envelope_m": [
+      2.05,
+      4.9
+    ],
+    "physics_samples": 1649,
+    "sidewalk_overlap_samples": 0,
+    "minimum_sidewalk_separating_gap_m": 0.8776908575469928,
+    "straight_lane_samples": 880,
+    "wrong_lane_samples": 0,
+    "minimum_straight_lane_clearance_m": 1.1748105801174766,
+    "method": "Oriented conservative vehicle rectangle vs native sidewalk block rectangles; straight-lane bounds; each physics step"
+  },
+  "side_watch_steps": {
+    "clear": 1037,
+    "watch": 133,
+    "yield": 201,
+    "caution": 278
+  },
+  "method": {
+    "physics_hz": 120,
+    "pose": "simulator ground truth",
+    "sensing": "5 PhysX ray queries at lateral offsets (-1.0, -0.5, 0.0, 0.5, 1.0) m",
+    "sensor": "wide",
+    "pedestrian": "kinematic capsule r=0.25 m, straight-line walk",
+    "vehicle": "NVIDIA BasicSetup PhysX vehicle"
+  }
+}

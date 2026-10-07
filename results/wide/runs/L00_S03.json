@@ -1,0 +1,69 @@
+{
+  "layout": "L00",
+  "scenario": "S03",
+  "scenario_params": {
+    "id": "S03",
+    "crossing_u": 0.4163,
+    "trigger_distance_m": 5.05,
+    "walk_speed_mps": 1.44,
+    "from_right": true,
+    "target_speed_mps": 3.5
+  },
+  "controls": {
+    "blocks_x": 3,
+    "blocks_z": 2,
+    "pitch_x": 42.0,
+    "pitch_z": 38.0,
+    "road_width": 10.0,
+    "sidewalk": 2.2
+  },
+  "outcome": "completed",
+  "success": true,
+  "route_length_m": 94.92972351931041,
+  "progress": 0.9961374922392073,
+  "sim_time_s": 38.34166666666667,
+  "wall_time_s": 24.121512400000938,
+  "real_time_factor": 1.5895216697384686,
+  "rms_cte_m": 0.10428910351402153,
+  "max_cte_m": 0.2837319289744504,
+  "crossing_s_m": 47.90141889800668,
+  "pedestrian_started": true,
+  "collision": false,
+  "contact_zone": null,
+  "min_ped_gap_m": 2.2330930579770345,
+  "lane_entry_t": 14.708333333333334,
+  "lane_entry_gap_m": 3.2833328723907442,
+  "lane_entry_speed": 0.294090583227964,
+  "first_detect_t": 11.625,
+  "first_detect_m": 9.261076026990827,
+  "stopped_for_ped": true,
+  "min_gap_while_stopped_m": 2.985834049704044,
+  "resume_delay_s": 0.5,
+  "road_check": {
+    "vehicle_envelope_m": [
+      2.05,
+      4.9
+    ],
+    "physics_samples": 4601,
+    "sidewalk_overlap_samples": 0,
+    "minimum_sidewalk_separating_gap_m": 0.5069977490738911,
+    "straight_lane_samples": 2957,
+    "wrong_lane_samples": 0,
+    "minimum_straight_lane_clearance_m": 0.8683499654828506,
+    "method": "Oriented conservative vehicle rectangle vs native sidewalk block rectangles; straight-lane bounds; each physics step"
+  },
+  "side_watch_steps": {
+    "clear": 2965,
+    "watch": 174,
+    "yield": 686,
+    "caution": 776
+  },
+  "method": {
+    "physics_hz": 120,
+    "pose": "simulator ground truth",
+    "sensing": "5 PhysX ray queries at lateral offsets (-1.0, -0.5, 0.0, 0.5, 1.0) m",
+    "sensor": "wide",
+    "pedestrian": "kinematic capsule r=0.25 m, straight-line walk",
+    "vehicle": "NVIDIA BasicSetup PhysX vehicle"
+  }
+}

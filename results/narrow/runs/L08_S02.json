@@ -1,0 +1,64 @@
+{
+  "layout": "L08",
+  "scenario": "S02",
+  "scenario_params": {
+    "id": "S02",
+    "crossing_u": 0.4948,
+    "trigger_distance_m": 16.75,
+    "walk_speed_mps": 1.34,
+    "from_right": true,
+    "target_speed_mps": 3.5
+  },
+  "controls": {
+    "blocks_x": 4,
+    "blocks_z": 3,
+    "pitch_x": 39.0,
+    "pitch_z": 46.4,
+    "road_width": 11.0,
+    "sidewalk": 2.18
+  },
+  "outcome": "completed",
+  "success": true,
+  "route_length_m": 106.42269461545025,
+  "progress": 0.9954896881349343,
+  "sim_time_s": 35.575,
+  "wall_time_s": 22.159852800001318,
+  "real_time_factor": 1.6053807000016664,
+  "rms_cte_m": 0.10481891937453323,
+  "max_cte_m": 0.2659556466627567,
+  "crossing_s_m": 54.698226536675705,
+  "pedestrian_started": true,
+  "collision": false,
+  "contact_zone": null,
+  "min_ped_gap_m": 0.930566362392188,
+  "lane_entry_t": 13.341666666666667,
+  "lane_entry_gap_m": 10.097504220053963,
+  "lane_entry_speed": 3.508821580175052,
+  "first_detect_t": null,
+  "first_detect_m": null,
+  "stopped_for_ped": false,
+  "min_gap_while_stopped_m": null,
+  "resume_delay_s": null,
+  "road_check": {
+    "vehicle_envelope_m": [
+      2.05,
+      4.9
+    ],
+    "physics_samples": 4269,
+    "sidewalk_overlap_samples": 0,
+    "minimum_sidewalk_separating_gap_m": 0.6584299265522162,
+    "straight_lane_samples": 2513,
+    "wrong_lane_samples": 0,
+    "minimum_straight_lane_clearance_m": 1.0571230891015304,
+    "method": "Oriented conservative vehicle rectangle vs native sidewalk block rectangles; straight-lane bounds; each physics step"
+  },
+  "side_watch_steps": null,
+  "method": {
+    "physics_hz": 120,
+    "pose": "simulator ground truth",
+    "sensing": "3 PhysX ray queries at lateral offsets (-0.65, 0.0, 0.65) m",
+    "sensor": "narrow",
+    "pedestrian": "kinematic capsule r=0.25 m, straight-line walk",
+    "vehicle": "NVIDIA BasicSetup PhysX vehicle"
+  }
+}

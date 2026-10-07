@@ -1,0 +1,69 @@
+{
+  "layout": "L03",
+  "scenario": "S02",
+  "scenario_params": {
+    "id": "S02",
+    "crossing_u": 0.4948,
+    "trigger_distance_m": 16.75,
+    "walk_speed_mps": 1.34,
+    "from_right": true,
+    "target_speed_mps": 3.5
+  },
+  "controls": {
+    "blocks_x": 4,
+    "blocks_z": 3,
+    "pitch_x": 42.0,
+    "pitch_z": 43.5,
+    "road_width": 10.0,
+    "sidewalk": 2.42
+  },
+  "outcome": "completed",
+  "success": true,
+  "route_length_m": 105.92972343417544,
+  "progress": 0.9956732350412799,
+  "sim_time_s": 38.11666666666667,
+  "wall_time_s": 28.268947399999888,
+  "real_time_factor": 1.3483581870709065,
+  "rms_cte_m": 0.10517953098119863,
+  "max_cte_m": 0.2956586447006487,
+  "crossing_s_m": 55.13475213925076,
+  "pedestrian_started": true,
+  "collision": false,
+  "contact_zone": null,
+  "min_ped_gap_m": 2.42914919085964,
+  "lane_entry_t": 13.383333333333333,
+  "lane_entry_gap_m": 10.298866167911896,
+  "lane_entry_speed": 3.507860221755889,
+  "first_detect_t": 14.175,
+  "first_detect_m": 7.248796463012695,
+  "stopped_for_ped": false,
+  "min_gap_while_stopped_m": null,
+  "resume_delay_s": null,
+  "road_check": {
+    "vehicle_envelope_m": [
+      2.05,
+      4.9
+    ],
+    "physics_samples": 4574,
+    "sidewalk_overlap_samples": 0,
+    "minimum_sidewalk_separating_gap_m": 0.5069675063694588,
+    "straight_lane_samples": 2960,
+    "wrong_lane_samples": 0,
+    "minimum_straight_lane_clearance_m": 0.8620911355509193,
+    "method": "Oriented conservative vehicle rectangle vs native sidewalk block rectangles; straight-lane bounds; each physics step"
+  },
+  "side_watch_steps": {
+    "clear": 3244,
+    "watch": 315,
+    "yield": 408,
+    "caution": 607
+  },
+  "method": {
+    "physics_hz": 120,
+    "pose": "simulator ground truth",
+    "sensing": "5 PhysX ray queries at lateral offsets (-1.0, -0.5, 0.0, 0.5, 1.0) m",
+    "sensor": "wide",
+    "pedestrian": "kinematic capsule r=0.25 m, straight-line walk",
+    "vehicle": "NVIDIA BasicSetup PhysX vehicle"
+  }
+}
