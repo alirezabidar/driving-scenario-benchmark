@@ -1,4 +1,4 @@
-# Driving Scenario Benchmark (Study 05)
+# Driving Scenario Benchmark
 
 Project page with videos and results: https://www.alirezabidar.net/robotics.html#driving-benchmark
 
