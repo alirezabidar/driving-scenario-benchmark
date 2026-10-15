@@ -1,0 +1,40 @@
+{
+  "sensor": "narrow",
+  "runs": 100,
+  "layouts": 10,
+  "scenarios": 10,
+  "success": 65,
+  "success_rate": 0.65,
+  "success_ci95": [
+    0.5525426042919797,
+    0.7363589534652197
+  ],
+  "outcomes": {
+    "completed": 65,
+    "collision_side": 33,
+    "collision_front": 2
+  },
+  "success_by_encounter": {
+    "car first": {
+      "success": 45,
+      "runs": 45
+    },
+    "pedestrian first": {
+      "success": 20,
+      "runs": 20
+    },
+    "simultaneous": {
+      "success": 0,
+      "runs": 35
+    }
+  },
+  "completed_rms_cte_m": 0.10287955276965863,
+  "max_cte_m": 0.29592552295253477,
+  "kerb_overlap_runs": 0,
+  "stopped_for_pedestrian": 0,
+  "median_min_gap_when_stopped_m": null,
+  "median_resume_delay_s": null,
+  "real_time_factor_median": 1.6063191517471314,
+  "total_sim_s": 2899.125,
+  "total_wall_s": 1807.2471194000073
+}

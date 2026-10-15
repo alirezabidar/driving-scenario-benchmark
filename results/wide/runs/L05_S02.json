@@ -1,0 +1,69 @@
+{
+  "layout": "L05",
+  "scenario": "S02",
+  "scenario_params": {
+    "id": "S02",
+    "crossing_u": 0.4948,
+    "trigger_distance_m": 16.75,
+    "walk_speed_mps": 1.34,
+    "from_right": true,
+    "target_speed_mps": 3.5
+  },
+  "controls": {
+    "blocks_x": 3,
+    "blocks_z": 2,
+    "pitch_x": 44.3,
+    "pitch_z": 34.2,
+    "road_width": 12.0,
+    "sidewalk": 2.34
+  },
+  "outcome": "completed",
+  "success": true,
+  "route_length_m": 85.01566876027321,
+  "progress": 0.9941187312022458,
+  "sim_time_s": 32.55,
+  "wall_time_s": 15.976613100003306,
+  "real_time_factor": 2.0373529606217518,
+  "rms_cte_m": 0.09645622015216576,
+  "max_cte_m": 0.21944773547352706,
+  "crossing_s_m": 45.11336960208614,
+  "pedestrian_started": true,
+  "collision": false,
+  "contact_zone": null,
+  "min_ped_gap_m": 2.3865642486531984,
+  "lane_entry_t": 10.85,
+  "lane_entry_gap_m": 9.329071275921308,
+  "lane_entry_speed": 3.158486821299272,
+  "first_detect_t": 11.458333333333334,
+  "first_detect_m": 7.1405863761901855,
+  "stopped_for_ped": false,
+  "min_gap_while_stopped_m": null,
+  "resume_delay_s": null,
+  "road_check": {
+    "vehicle_envelope_m": [
+      2.05,
+      4.9
+    ],
+    "physics_samples": 3906,
+    "sidewalk_overlap_samples": 0,
+    "minimum_sidewalk_separating_gap_m": 0.8073139100825699,
+    "straight_lane_samples": 1958,
+    "wrong_lane_samples": 0,
+    "minimum_straight_lane_clearance_m": 1.263842286540799,
+    "method": "Oriented conservative vehicle rectangle vs native sidewalk block rectangles; straight-lane bounds; each physics step"
+  },
+  "side_watch_steps": {
+    "clear": 2436,
+    "watch": 376,
+    "yield": 495,
+    "caution": 599
+  },
+  "method": {
+    "physics_hz": 120,
+    "pose": "simulator ground truth",
+    "sensing": "5 PhysX ray queries at lateral offsets (-1.0, -0.5, 0.0, 0.5, 1.0) m",
+    "sensor": "wide",
+    "pedestrian": "kinematic capsule r=0.25 m, straight-line walk",
+    "vehicle": "NVIDIA BasicSetup PhysX vehicle"
+  }
+}

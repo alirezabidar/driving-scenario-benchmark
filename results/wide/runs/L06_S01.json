@@ -1,0 +1,69 @@
+{
+  "layout": "L06",
+  "scenario": "S01",
+  "scenario_params": {
+    "id": "S01",
+    "crossing_u": 0.5485,
+    "trigger_distance_m": 20.54,
+    "walk_speed_mps": 1.1,
+    "from_right": false,
+    "target_speed_mps": 3.5
+  },
+  "controls": {
+    "blocks_x": 3,
+    "blocks_z": 2,
+    "pitch_x": 43.2,
+    "pitch_z": 40.1,
+    "road_width": 12.0,
+    "sidewalk": 2.16
+  },
+  "outcome": "collision_side",
+  "success": false,
+  "route_length_m": 95.71566833394782,
+  "progress": 0.5470546634161453,
+  "sim_time_s": 17.366666666666667,
+  "wall_time_s": 8.438696099998197,
+  "real_time_factor": 2.057979865712948,
+  "rms_cte_m": 0.07943400248020521,
+  "max_cte_m": 0.15518542930278253,
+  "crossing_s_m": 51.26170273003968,
+  "pedestrian_started": true,
+  "collision": true,
+  "contact_zone": "side",
+  "min_ped_gap_m": -0.007873043067036845,
+  "lane_entry_t": 17.358333333333334,
+  "lane_entry_gap_m": -3.5499999940395384,
+  "lane_entry_speed": 3.261403010587105,
+  "first_detect_t": null,
+  "first_detect_m": null,
+  "stopped_for_ped": false,
+  "min_gap_while_stopped_m": null,
+  "resume_delay_s": null,
+  "road_check": {
+    "vehicle_envelope_m": [
+      2.05,
+      4.9
+    ],
+    "physics_samples": 2084,
+    "sidewalk_overlap_samples": 0,
+    "minimum_sidewalk_separating_gap_m": 1.468541001966182,
+    "straight_lane_samples": 1098,
+    "wrong_lane_samples": 0,
+    "minimum_straight_lane_clearance_m": 1.7492173823755666,
+    "method": "Oriented conservative vehicle rectangle vs native sidewalk block rectangles; straight-lane bounds; each physics step"
+  },
+  "side_watch_steps": {
+    "clear": 1291,
+    "watch": 139,
+    "yield": 278,
+    "caution": 376
+  },
+  "method": {
+    "physics_hz": 120,
+    "pose": "simulator ground truth",
+    "sensing": "5 PhysX ray queries at lateral offsets (-1.0, -0.5, 0.0, 0.5, 1.0) m",
+    "sensor": "wide",
+    "pedestrian": "kinematic capsule r=0.25 m, straight-line walk",
+    "vehicle": "NVIDIA BasicSetup PhysX vehicle"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "paired_runs": 100,
+  "narrow_success": 65,
+  "wide_success": 96,
+  "narrow_ci95": [
+    0.5525426042919797,
+    0.7363589534652197
+  ],
+  "wide_ci95": [
+    0.9016278276739262,
+    0.984336949448152
+  ],
+  "fixed_by_revision": 33,
+  "broken_by_revision": 2,
+  "broken_examples": [
+    "L00_S06",
+    "L06_S01"
+  ],
+  "narrow_outcomes": {
+    "completed": 65,
+    "collision_side": 33,
+    "collision_front": 2
+  },
+  "wide_outcomes": {
+    "completed": 96,
+    "collision_side": 4
+  },
+  "narrow_median_rtf": 1.6063191517471314,
+  "wide_median_rtf": 1.723265364044067,
+  "mean_completion_time_s": {
+    "narrow": 32.77460317460318,
+    "wide": 34.62023809523809
+  }
+}

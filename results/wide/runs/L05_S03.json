@@ -1,0 +1,69 @@
+{
+  "layout": "L05",
+  "scenario": "S03",
+  "scenario_params": {
+    "id": "S03",
+    "crossing_u": 0.4163,
+    "trigger_distance_m": 5.05,
+    "walk_speed_mps": 1.44,
+    "from_right": true,
+    "target_speed_mps": 3.5
+  },
+  "controls": {
+    "blocks_x": 3,
+    "blocks_z": 2,
+    "pitch_x": 44.3,
+    "pitch_z": 34.2,
+    "road_width": 12.0,
+    "sidewalk": 2.34
+  },
+  "outcome": "completed",
+  "success": true,
+  "route_length_m": 85.01566876027321,
+  "progress": 0.9941187312022458,
+  "sim_time_s": 35.49166666666667,
+  "wall_time_s": 17.0482858999967,
+  "real_time_factor": 2.081831972718943,
+  "rms_cte_m": 0.09567827735300694,
+  "max_cte_m": 0.21892816045404548,
+  "crossing_s_m": 43.80336954009731,
+  "pedestrian_started": true,
+  "collision": false,
+  "contact_zone": null,
+  "min_ped_gap_m": 2.0903118672225123,
+  "lane_entry_t": 13.925,
+  "lane_entry_gap_m": 2.680833387374875,
+  "lane_entry_speed": 0.0063065279082868035,
+  "first_detect_t": 10.125,
+  "first_detect_m": 9.026952945491416,
+  "stopped_for_ped": true,
+  "min_gap_while_stopped_m": 2.4621611454001844,
+  "resume_delay_s": 1.0249999999999986,
+  "road_check": {
+    "vehicle_envelope_m": [
+      2.05,
+      4.9
+    ],
+    "physics_samples": 4259,
+    "sidewalk_overlap_samples": 0,
+    "minimum_sidewalk_separating_gap_m": 0.8072819810440599,
+    "straight_lane_samples": 2310,
+    "wrong_lane_samples": 0,
+    "minimum_straight_lane_clearance_m": 1.2630237653594962,
+    "method": "Oriented conservative vehicle rectangle vs native sidewalk block rectangles; straight-lane bounds; each physics step"
+  },
+  "side_watch_steps": {
+    "clear": 2507,
+    "watch": 311,
+    "yield": 753,
+    "caution": 688
+  },
+  "method": {
+    "physics_hz": 120,
+    "pose": "simulator ground truth",
+    "sensing": "5 PhysX ray queries at lateral offsets (-1.0, -0.5, 0.0, 0.5, 1.0) m",
+    "sensor": "wide",
+    "pedestrian": "kinematic capsule r=0.25 m, straight-line walk",
+    "vehicle": "NVIDIA BasicSetup PhysX vehicle"
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "layout": "L02",
+  "scenario": "S08",
+  "scenario_params": {
+    "id": "S08",
+    "crossing_u": 0.9471,
+    "trigger_distance_m": 5.59,
+    "walk_speed_mps": 1.04,
+    "from_right": true,
+    "target_speed_mps": 3.0
+  },
+  "controls": {
+    "blocks_x": 4,
+    "blocks_z": 3,
+    "pitch_x": 36.2,
+    "pitch_z": 43.1,
+    "road_width": 12.0,
+    "sidewalk": 2.16
+  },
+  "outcome": "completed",
+  "success": true,
+  "route_length_m": 94.71566732638408,
+  "progress": 0.9957944280947008,
+  "sim_time_s": 41.63333333333333,
+  "wall_time_s": 30.672217500001352,
+  "real_time_factor": 1.3573630055711328,
+  "rms_cte_m": 0.09376831244267712,
+  "max_cte_m": 0.23361634633956635,
+  "crossing_s_m": 82.1681674908929,
+  "pedestrian_started": true,
+  "collision": false,
+  "contact_zone": null,
+  "min_ped_gap_m": 1.0509963240169111,
+  "lane_entry_t": 29.058333333333334,
+  "lane_entry_gap_m": 1.732500183582303,
+  "lane_entry_speed": 1.5500044651924734,
+  "first_detect_t": 29.0,
+  "first_detect_m": 1.57407808303833,
+  "stopped_for_ped": true,
+  "min_gap_while_stopped_m": 1.2380148189177924,
+  "resume_delay_s": 0.8250000000000028,
+  "road_check": {
+    "vehicle_envelope_m": [
+      2.05,
+      4.9
+    ],
+    "physics_samples": 4996,
+    "sidewalk_overlap_samples": 0,
+    "minimum_sidewalk_separating_gap_m": 0.8069832501672174,
+    "straight_lane_samples": 2769,
+    "wrong_lane_samples": 0,
+    "minimum_straight_lane_clearance_m": 1.2425914678943073,
+    "method": "Oriented conservative vehicle rectangle vs native sidewalk block rectangles; straight-lane bounds; each physics step"
+  },
+  "side_watch_steps": {
+    "clear": 3205,
+    "watch": 439,
+    "yield": 740,
+    "caution": 612
+  },
+  "method": {
+    "physics_hz": 120,
+    "pose": "simulator ground truth",
+    "sensing": "5 PhysX ray queries at lateral offsets (-1.0, -0.5, 0.0, 0.5, 1.0) m",
+    "sensor": "wide",
+    "pedestrian": "kinematic capsule r=0.25 m, straight-line walk",
+    "vehicle": "NVIDIA BasicSetup PhysX vehicle"
+  }
+}

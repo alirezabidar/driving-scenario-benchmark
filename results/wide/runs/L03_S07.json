@@ -1,0 +1,69 @@
+{
+  "layout": "L03",
+  "scenario": "S07",
+  "scenario_params": {
+    "id": "S07",
+    "crossing_u": 0.9585,
+    "trigger_distance_m": 27.21,
+    "walk_speed_mps": 1.3,
+    "from_right": false,
+    "target_speed_mps": 3.0
+  },
+  "controls": {
+    "blocks_x": 4,
+    "blocks_z": 3,
+    "pitch_x": 42.0,
+    "pitch_z": 43.5,
+    "road_width": 10.0,
+    "sidewalk": 2.42
+  },
+  "outcome": "completed",
+  "success": true,
+  "route_length_m": 105.92972343417544,
+  "progress": 0.9956732350412799,
+  "sim_time_s": 42.69166666666667,
+  "wall_time_s": 31.109837699999844,
+  "real_time_factor": 1.3722883120880724,
+  "rms_cte_m": 0.10264320086576074,
+  "max_cte_m": 0.2958454211627166,
+  "crossing_s_m": 93.55472343417544,
+  "pedestrian_started": true,
+  "collision": false,
+  "contact_zone": null,
+  "min_ped_gap_m": 2.409654570411087,
+  "lane_entry_t": 28.141666666666666,
+  "lane_entry_gap_m": 11.529166984558103,
+  "lane_entry_speed": 2.7245659114811196,
+  "first_detect_t": 27.958333333333332,
+  "first_detect_m": 11.839804649353027,
+  "stopped_for_ped": false,
+  "min_gap_while_stopped_m": null,
+  "resume_delay_s": null,
+  "road_check": {
+    "vehicle_envelope_m": [
+      2.05,
+      4.9
+    ],
+    "physics_samples": 5123,
+    "sidewalk_overlap_samples": 0,
+    "minimum_sidewalk_separating_gap_m": 0.507591467206475,
+    "straight_lane_samples": 3337,
+    "wrong_lane_samples": 0,
+    "minimum_straight_lane_clearance_m": 0.8684121391369466,
+    "method": "Oriented conservative vehicle rectangle vs native sidewalk block rectangles; straight-lane bounds; each physics step"
+  },
+  "side_watch_steps": {
+    "clear": 3637,
+    "watch": 264,
+    "yield": 440,
+    "caution": 782
+  },
+  "method": {
+    "physics_hz": 120,
+    "pose": "simulator ground truth",
+    "sensing": "5 PhysX ray queries at lateral offsets (-1.0, -0.5, 0.0, 0.5, 1.0) m",
+    "sensor": "wide",
+    "pedestrian": "kinematic capsule r=0.25 m, straight-line walk",
+    "vehicle": "NVIDIA BasicSetup PhysX vehicle"
+  }
+}

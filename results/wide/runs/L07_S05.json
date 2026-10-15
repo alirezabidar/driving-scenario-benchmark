@@ -1,0 +1,69 @@
+{
+  "layout": "L07",
+  "scenario": "S05",
+  "scenario_params": {
+    "id": "S05",
+    "crossing_u": 0.9897,
+    "trigger_distance_m": 6.47,
+    "walk_speed_mps": 1.09,
+    "from_right": true,
+    "target_speed_mps": 4.0
+  },
+  "controls": {
+    "blocks_x": 2,
+    "blocks_z": 3,
+    "pitch_x": 46.6,
+    "pitch_z": 42.5,
+    "road_width": 12.0,
+    "sidewalk": 2.21
+  },
+  "outcome": "completed",
+  "success": true,
+  "route_length_m": 103.91566920191075,
+  "progress": 0.9962629955270448,
+  "sim_time_s": 38.975,
+  "wall_time_s": 18.63075369999933,
+  "real_time_factor": 2.0919711906234584,
+  "rms_cte_m": 0.09761480248385143,
+  "max_cte_m": 0.2326948892054564,
+  "crossing_s_m": 93.4306695452335,
+  "pedestrian_started": true,
+  "collision": false,
+  "contact_zone": null,
+  "min_ped_gap_m": 1.5717406356310804,
+  "lane_entry_t": 27.016666666666666,
+  "lane_entry_gap_m": 2.2099998474121065,
+  "lane_entry_speed": 0.016307830810546875,
+  "first_detect_t": 26.975,
+  "first_detect_m": 2.080454111099243,
+  "stopped_for_ped": true,
+  "min_gap_while_stopped_m": 2.0418473889238666,
+  "resume_delay_s": 0.8249999999999993,
+  "road_check": {
+    "vehicle_envelope_m": [
+      2.05,
+      4.9
+    ],
+    "physics_samples": 4677,
+    "sidewalk_overlap_samples": 0,
+    "minimum_sidewalk_separating_gap_m": 0.8065930378596562,
+    "straight_lane_samples": 2883,
+    "wrong_lane_samples": 0,
+    "minimum_straight_lane_clearance_m": 1.259967207030268,
+    "method": "Oriented conservative vehicle rectangle vs native sidewalk block rectangles; straight-lane bounds; each physics step"
+  },
+  "side_watch_steps": {
+    "clear": 3242,
+    "watch": 238,
+    "yield": 710,
+    "caution": 487
+  },
+  "method": {
+    "physics_hz": 120,
+    "pose": "simulator ground truth",
+    "sensing": "5 PhysX ray queries at lateral offsets (-1.0, -0.5, 0.0, 0.5, 1.0) m",
+    "sensor": "wide",
+    "pedestrian": "kinematic capsule r=0.25 m, straight-line walk",
+    "vehicle": "NVIDIA BasicSetup PhysX vehicle"
+  }
+}
